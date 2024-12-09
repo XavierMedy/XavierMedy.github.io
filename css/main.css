@@ -5,6 +5,8 @@ body {
     width: 100%;
     height: 100%;
     background: linear-gradient(to bottom, #800020, #C0C0C0); /* Burgundy to Silver gradient */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+    background-size: cover; /* Ensure the gradient covers the entire page */
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
 }
 
