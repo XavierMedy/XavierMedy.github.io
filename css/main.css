@@ -1,43 +1,105 @@
+/* General Styles */
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
     font-weight: bold;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+nav a:hover {
+    text-decoration: underline;
 }
+
+/* Header and Text */
+h1 {
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-align: center;
+    color: #444;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+}
+
 a {
-    text-decoration: none;
-    color: #999;
+    color: #007BFF;
 }
+
 a:hover {
     text-decoration: underline;
 }
-h1 {
-    font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    color: #333;
-}
+
+/* Footer */
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 2px solid #444;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Posts Section */
+ul.posts {
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
 }
 
 ul.posts li {
-    list-style: none;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
